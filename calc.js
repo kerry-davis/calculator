@@ -39,18 +39,12 @@ function myFunction(e) {
   addToDisplayTxt(e.target.id);
 
   //capture the calculator numbers and operators
-  switch (e.target.id) {
-    // reset the display
-    case "cancel":
-      {
-        displayTxt = "0";
-      }
-      break;
+  if (e.target.id == "cancel") {
+    displayTxt = "0";
     // equals do the math!
-    case "equals": {
-      solved = true;
-      displayTxt = doTheMath(displayTxt);
-    }
+  } else if (e.target.id == "equals") {
+    solved = true;
+    displayTxt = doTheMath(displayTxt);
   }
   updateDisplay(displayTxt);
 }
