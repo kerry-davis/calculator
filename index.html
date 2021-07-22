@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+  </head>
+  <body>
+    <table class="table" border="10px" cellpadding="5px">
+    <tbody>
+    <tr class="rowDisp">
+    <td id="display" align="right" class="colDisp" colspan="4">0</td>
+    </tr>
+    <tr class="row">
+    <td id="cancel" class="col" onClick="myFunction(event)">C</td>
+    <td id="*" class="col" onClick="myFunction(event)">*</td>
+    <td id="-" class="col" onClick="myFunction(event)">-</td>
+    <td id="+" class="col" onClick="myFunction(event)">+</td>
+    </tr>
+    <tr class="row">
+    <td id="7" class="col" onClick="myFunction(event)">7</td>
+    <td id="8" class="col" onClick="myFunction(event)">8</td>
+    <td id="9" class="col" onClick="myFunction(event)">9</td>
+    <td id="equals" rowspan="4" class="col" onClick="myFunction(event)">=</td>
+    </tr>
+    <tr class="row">
+    <td id="4" class="col" onClick="myFunction(event)">4</td>
+    <td id="5" class="col" onClick="myFunction(event)">5</td>
+    <td id="6" class="col" onClick="myFunction(event)">6</td>
+    </tr>
+    <tr class="row">
+    <td id="1" class="col" onClick="myFunction(event)">1</td>
+    <td id="2" class="col" onClick="myFunction(event)">2</td>
+    <td id="3" class="col" onClick="myFunction(event)">3</td>
+    </tr>
+    <tr class="row">
+    <td id="%" class="col" onClick="myFunction(event)">%</td>
+    <td id="0" class="col" onClick="myFunction(event)">0</td>
+    <td id="." class="col" onClick="myFunction(event)">.</td>
+    </tr>
+    </tbody>
+    </table>
+</body>
+</html>

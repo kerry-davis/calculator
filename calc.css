@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif
+  }
+  
+body {
+display: flex;
+align-items: center;
+justify-content: flex-center;
+flex-direction: column;
+}
+
+.table {
+height: 200px;
+width: 300px; 
+border-color: black; 
+margin-left: auto; 
+margin-right: auto;
+}
+
+.row {
+height: 25px; 
+text-align: center;
+}
+
+td:hover {background-color:#f5f5f5;}
+
+
+.rowDisp {
+height: 50px;
+}
+
+.col {
+width: 60px;
+height: 25px; 
+vertical-align: middle;
+}
+
+.colDisp {
+width: 280px; 
+height: 50px;
+}
